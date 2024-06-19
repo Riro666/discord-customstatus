@@ -61,7 +61,7 @@ function doRequest(text, emojiID = null, emojiName = null) {
 client.on('ready', () => { 
    console.log(`Log in account name: ${client.user.username}`)
 })
-client.login('Njk0MjA2OTc4OTAxMjc4ODUw.GROonM.ibaprfanez6PLOjLAmMk1m5UyFwXRkfQrSjmSw');
+client.login('');
 let server = app.listen(3000, function(){
   console.log("App server is running on port 3000");
 });
